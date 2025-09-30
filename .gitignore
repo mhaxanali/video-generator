@@ -1,0 +1,114 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django/Flask stuff (if used)
+*.log
+db.sqlite3
+instance/
+.wsgi.py
+
+# Jupyter
+.ipynb_checkpoints
+
+# ----------------------
+# Frontend (Node/JS/CSS/HTML)
+# ----------------------
+node_modules/
+bower_components/
+jspm_packages/
+.pnpm-debug.log
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build / dist outputs
+/dist
+/build
+/public/build
+/.svelte-kit
+.next
+.nuxt
+out/
+coverage/
+
+# ----------------------
+# Environment & Config
+# ----------------------
+*.env
+*.env.*
+.envrc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----------------------
+# OS generated
+# ----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ----------------------
+# IDEs / Editors
+# ----------------------
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------
+# Misc
+# ----------------------
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp
+
+# Compiled static assets
+*.min.js
+*.min.css
+*.map
