@@ -5,7 +5,8 @@ class Prompt:
             "It should contain a key 'response' (the script).",
             "Another key 'keywords' should be a list of keywords.",
             "The first element of 'keywords' must be the keyword count.",
-            "Ensure keywords are naturally included in the script."
+            "Ensure keywords are naturally included in the script.",
+            "This script will be used as script for voiceover using AI TTS."
         ]
         
         instructions = " ".join(base_instructions)
