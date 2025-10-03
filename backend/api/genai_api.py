@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import ast
-from constants import GEMINI_API_KEY
-from prompt import Prompt
+from assets.constants import GEMINI_API_KEY
+from assets.prompt import Prompt
 
 
 def get_script_and_keywords(channel_type: str, video_title: str, video_duration: str, custom_instructions: str = ""):
