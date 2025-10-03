@@ -60,7 +60,6 @@ coverage/
 # ----------------------
 # Environment & Config
 # ----------------------
-*.env
 *.env.*
 .envrc
 .env.local
