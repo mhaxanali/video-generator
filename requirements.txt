@@ -2,3 +2,4 @@ google-generativeai
 requests
 flask
 python-dotenv
+elevenlabs
