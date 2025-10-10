@@ -17,6 +17,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 downloads/
 *.mp3
+audio/
 
 # Virtual environments
 .venv
