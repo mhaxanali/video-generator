@@ -19,7 +19,7 @@ def search_images(query: str, _type: str, per_page: int = 1) -> list[dict]:
     results = []
     for i, photo in enumerate(data.get("photos", []), start=1):
         image_url = photo["src"]["original"]
-        folder_path = os.path.join("downloads")
+        folder_path = os.path.join("downloads/images")
         os.makedirs(folder_path, exist_ok=True)
         filename = os.path.join(folder_path, f"{query}_{i}.jpg")
 
