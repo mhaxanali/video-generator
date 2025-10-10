@@ -32,7 +32,3 @@ class Prompt:
                 f"{custom_instructions} {instructions}"
             )
         }
-
-
-if __name__ == '__main__':
-    print(Prompt("facts", "that one time napolean was attacked by rabbits", "30s").content["prompt"])
