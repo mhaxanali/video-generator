@@ -20,7 +20,8 @@ class Prompt:
             "Your response will only contain the json and not any other aspects like markdown or affirmation or thoughts.",
             f"response should not contain any timestamps or anything and should be like {response_structure}, the number of keywords should be 1 for every 3-5 seconds.",
             "Keywords should be image search friendly for pexels api.",
-            "Script should be complete with a hook at the start to improve user retention and end with a sentence to improve user engagement."
+            "Script should be complete with a hook at the start to improve user retention and end with a sentence to improve user engagement.",
+            "all keywords must be unique."
         ]
         
         instructions = " ".join(base_instructions)
