@@ -113,3 +113,4 @@ Desktop.ini
 *.min.js
 *.min.css
 *.map
+.env
