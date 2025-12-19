@@ -18,6 +18,7 @@ pip-delete-this-directory.txt
 downloads/
 *.mp3
 audio/
+*.mp4
 
 # Virtual environments
 .venv
