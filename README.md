@@ -50,7 +50,7 @@ The architecture represents the intended pipeline. The repository does not curre
 
 ```text
 video-generator/
-│   .env                  # Local API keys/configuration; must not be committed
+│   .env                   # Local API keys/configuration; must not be committed. Create from .env.example
 │   .gitignore             # Git ignore rules
 │   README.md              # Project documentation
 │   requirements.txt       # Python dependencies
@@ -101,17 +101,7 @@ video-generator/
 
 The repository previously included a change indicating that `.env` files should be ignored going forward.
 
-If `.env` was committed in an earlier revision, any API credentials present in that historical version should be considered **potentially exposed**, even if the file was later removed or added to `.gitignore`.
-
-Relevant credentials may include:
-
-* GenAI API keys
-* Pexels API keys
-* ElevenLabs API keys
-
-If historical commits contain real credentials, those credentials should be revoked and replaced. Removing the file from the current working tree does not remove secrets from Git history.
-
-For local development, API credentials should be stored in an untracked `.env` file and should never be committed.
+All those secrets included in that file are no longer valid so it is not really a concern.
 
 ## Future Improvements
 
